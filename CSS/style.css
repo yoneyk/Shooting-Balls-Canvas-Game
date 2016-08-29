@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Antipasto';
+  src: url('Antipasto_regular.otf');
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  background-image: url("../IMG/header.jpg");
+  background-position-y: -240px;
+  width: 100%;
+  box-shadow: 0px -1px 18px black;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  background-image: url("../IMG/herbs2.jpg");
+  width: 100%;
+  box-shadow: 0px 0px 5px green;
+}
+
+body {
+  font-family: Antipasto;
+}
+
+
+img.icon_language {
+width: 50px;
+height: 35px;
+border: solid 1px black;
+border-radius: 5px;
+margin-right: 15px;
+}
+
+img.icon_language:hover {
+box-shadow: 0px 0px 5px black;
+}
+
+.textHeader{
+	font-size:4vh;
+}
+
+#color{
+  color:white;
+}
+
+#timer{
+  font-size:2.3em;
+  color:black;
+}
+
+.divHeader{
+  background-color: white;
+  border: 3px solid goldenrod;
+  box-shadow: 0px 0px 5px goldenrod;
+  width: 15vw;
+  height: 6vh;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#header
+{
+	text-align: center;
+}
+
+#score {
+float: right;
+  margin-right: 50px;
+  display: inline-flex;
+  padding-left: 4%;
+}
+
+#color {
+float: left;
+margin-left: 50px;
+}
+
+#timer {
+display: inline-block;
+margin-right: auto;
+}
+
+#star{
+  width: 3.5vw;
+  height: 4.5vh;
+  margin-top: 1%;
+}
+
+/* added */
+#life{
+ float: right;
+  margin-right: 50px;
+}
+
+#finalScore{
+  text-align:center;
+}
+
+img#starFinal {
+height: 45px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.heart{
+    width: 2.8vw;
+  height: 4.5vh;
+  margin-top: 1%;
+}
+
+.imgTuto {
+	width: 6vw;
+	height:11vh;
+}
+
+div#colorDesc {
+  background-color: #ddd;
+  border-radius: 15px;
+  border: 1px whitesmoke solid;
+  box-shadow: 0px 0px 5px grey;
+}
+
+div#specialDesc {
+  background-color: #ddd;
+  border-radius: 15px;
+  border: 1px whitesmoke solid;
+  box-shadow: 0px 0px 5px grey;
+  margin-top: 20px;
+}
+
+.colorBubble {
+  margin : 15px 5px 0 15px;
+  display: inline-block;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+/************************************Popup********************************************/
+
+#fade { /*--opacity layer in background--*/
+  display: none;
+  background: #000;
+  position: fixed; left: 0; top: 0;
+  width: 100%; height: 100%;
+  opacity: .4;
+  z-index: 9999;
+}
+
+.popup_block{
+  display: none;
+  background: #fff;
+  padding: 20px;
+  border: 10px solid #ddd;
+  float: left;
+  font-size: 1.2em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 20px #000;
+  -moz-box-shadow: 0px 0px 20px #000;
+  box-shadow: 0px 0px 20px #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+}
+
+
+/*--manage fixed position for IE6--*/
+#fade {
+position: absolute;
+}
+
+.popup_block {
+position: absolute;
+}
+
+#buttonTuto{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.buttonD{
+background-color: rgb(234, 234, 234);
+border-radius: 5px;
+border: solid 1px #A0A0A0;
+font-size: 10px;
+width: 90px;
+height: 35px;
+box-shadow: 0 0 1px grey;
+}
+
+
+.buttonD:hover{
+z-index:2;
+box-shadow: 0 0 3px grey;
+-webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+     -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+         transform: scale(1.05);
+}
+
+
+div#languageIco {
+  float: right;
+  margin-top: -65px;
+}
+
+/*********************************************************************************/
+
+.icon {
+  width:50px;
+  height:50px;
+}
+
+.icon:hover {
+
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#iconFooter{
+  float:right;
+  margin : 5px 5px;
+}
+
+canvas {
+  margin-top: 50px;
+  height: 84vh; 
+  width: 100vw; 
+}
+
+#color {
+  background-color : red;
+}

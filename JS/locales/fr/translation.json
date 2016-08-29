@@ -1,0 +1,18 @@
+{
+  "colorBubble": {
+    "red": "rouge",
+    "yellow": "jaune",
+    "green": "vert",
+    "blue": "bleue",
+    "pink": "rose",
+    "orange": "orange",
+    "bomb" : " Bombe (-1 Vie) ",
+    "color" : "Couleur Universel",
+    "clock" : " Temps (+30sec)"
+  },
+  "buttonTuto": {
+    "resume1": "Commencer",
+    "resume2": "Reprendre",
+    "restart": "Recommencer"
+  }
+}
